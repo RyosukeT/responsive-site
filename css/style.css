@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+#header{
+ height:auto;
+ width: 100%;
+}
+
+#skills .text-center{
+      margin:  10px;
+}
+
+.text-center ,h3{
+  text-align: center;
+  margin:  10px;
+}
+
+.skill-box p {
+  text-align: center
+
+}
+
+    .skill-box {
+    margin: 10px 10px;/* 上下にマージン*/
+    padding: 10px;
+    width: 100%;
+/*    float: left;*/
+    background-color: skyblue;
+  }
+  
+
+ @media (min-width: 768px){ 
+    .container {
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -o-flex-direction: row;
+
+    }
+    .skill-box {
+      margin: 0 10px;                   // 左右にマージン
+    }
+  }
+
+
+ @media (max-width: 768px){
+  #header{
+ height:400px ;
+ width: 100%;
+ } 
+}
+
+
+#footerbox{
+    background-color: gray;
+}
+
+#footerbox h3 {
+    margin-top:  30px;
+}
+
+#button{
+  text-align: center;
+	background: #EEE;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #111;
+	width: 100px;
+	padding: 10px 0;
+	margin:0 auto;
+	}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
